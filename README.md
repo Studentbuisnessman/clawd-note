@@ -4,11 +4,34 @@ Clawdnote es un mini notion para Linux, pero mas sencillo y con varios presets v
 
 ## Requisitos
 
-Si no tienes Chromium instalado:
+Un navegador basado en Chromium. Si no tienes ninguno, instálalo según tu distro:
 
+**Arch / Manjaro / EndeavourOS**
 ```bash
 sudo pacman -S chromium
 ```
+
+**Debian / Ubuntu / Linux Mint / Pop!_OS**
+```bash
+sudo apt update && sudo apt install -y chromium
+```
+
+**Kali Linux**
+```bash
+sudo apt update && sudo apt install -y chromium
+```
+
+**Fedora**
+```bash
+sudo dnf install -y chromium
+```
+
+**openSUSE Leap / Tumbleweed**
+```bash
+sudo zypper install -y chromium
+```
+
+> También funciona con Chrome, Brave, Vivaldi o Edge si ya los tienes instalados.
 
 ---
 

@@ -20,13 +20,34 @@ clawdnote-app/
 
 ## Requisitos
 
-Un navegador basado en Chromium. En Arch:
+Un navegador basado en Chromium. Instálalo según tu distro:
 
+**Arch / Manjaro / EndeavourOS**
 ```bash
 sudo pacman -S chromium
 ```
 
-También funciona con Chrome, Brave, Vivaldi o Edge si ya los tienes.
+**Debian / Ubuntu / Linux Mint / Pop!_OS**
+```bash
+sudo apt update && sudo apt install -y chromium
+```
+
+**Kali Linux**
+```bash
+sudo apt update && sudo apt install -y chromium
+```
+
+**Fedora**
+```bash
+sudo dnf install -y chromium
+```
+
+**openSUSE Leap / Tumbleweed**
+```bash
+sudo zypper install -y chromium
+```
+
+> También funciona con Chrome, Brave, Vivaldi o Edge si ya los tienes.
 
 ---
 
